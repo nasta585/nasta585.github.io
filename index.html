@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Клиника животных</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
 <body>
-    привет
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
@@ -21,7 +20,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: space-between;">
                     <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#">homelion</a>
@@ -30,7 +29,11 @@
                             <a class="nav-link" href="#">cat</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">dog</a>
+                            <a class="nav-link" href="dogs.html">dogs</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboyt.html">о нас </a>
                         </li>
                     </ul>
 
@@ -43,7 +46,7 @@
         </nav>
     </header>
 
-    <section>
+    <section id="sapka">
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
@@ -52,7 +55,8 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="https://s.poembook.ru/diary/b0/6a/2d/d4c329d8dbf1519042d6945d3e9b06a16fc39d0e.jpeg" class="d-block w-100" alt="...">
+                    <img src="https://s.poembook.ru/diary/b0/6a/2d/d4c329d8dbf1519042d6945d3e9b06a16fc39d0e.jpeg"
+                        class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -82,21 +86,53 @@
                 <span class="visually-hidden">Next</span>
             </a>
         </div>
+    </section>
 
-
+    <section id="prodykt">
         <div class="container">
+            <div class="row" style="justify-content: space-around; margin-top: 1rem;">
 
-            <div class="row">
-                <div class="col-8">col-8
-                    <h1> Lorem
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-                <div class="col-4">col-4</div>
-                <img src="https://picsum.photos/900/500">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
+
         </div>
     </section>
 
-    <footer> </footer>
+    <footer class="text-muted py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#"><ya-tr-span data-index="37-0" data-value="Back to top" data-translation="Наверх" data-type="trSpan">Наверх</ya-tr-span></a>
+          </p>
+          <p class="mb-1"><ya-tr-span data-index="38-0" data-value="Album example is © Bootstrap, but please download and customize it for yourself!" data-translation="Пример альбома - © Bootstrap, но, пожалуйста, скачайте и настройте его для себя!" data-type="trSpan" data-selected="false">Пример альбома - © Bootstrap, но, пожалуйста, скачайте и настройте его для себя!</ya-tr-span></p>
+          <p class="mb-0"><ya-tr-span data-index="39-0" data-value="New to Bootstrap? " data-translation="Новичок в Bootstrap? " data-type="trSpan">Новичок в Bootstrap? </ya-tr-span><a href="/"><ya-tr-span data-index="39-1" data-value="Visit the homepage" data-translation="Посетите домашнюю" data-type="trSpan" data-selected="false">Посетите домашнюю</ya-tr-span></a><ya-tr-span data-index="39-1" data-value=" or read our " data-translation=" страницу или прочтите наше " data-type="trSpan" data-selected="false"> страницу или прочтите наше </ya-tr-span><a href="/docs/5.0/getting-started/introduction/"><ya-tr-span data-index="39-1" data-value="getting started guide" data-translation="руководство по началу" data-type="trSpan" data-selected="false">руководство по началу</ya-tr-span></a><ya-tr-span data-index="39-1" data-value="." data-translation="работы ." data-type="trSpan" data-selected="false">работы .</ya-tr-span></p>
+        </div>
+      </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
         integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
